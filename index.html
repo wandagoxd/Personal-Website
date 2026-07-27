@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Chen | Personal Portfolio</title>
+    <!-- Modern typography for the skeuomorphic theme -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=18">
+</head>
+
+<body>
+    <!-- Top Header Bar (No Mock Browser) -->
+    <header class="top-header">
+        <h1 class="header-logo">JUAN DANIEL GONZALO LÓPEZ PEDRAZA <span class="separator">|</span> <span
+                class="subtitle">ESTUDIANTE Y ENTUSIASTA</span></h1>
+    </header>
+
+    <!-- Desk Canvas / Workspace -->
+    <main class="desk-canvas">
+
+        <!-- Decorative Open Notebook (Left side of desk) -->
+        <div class="desk-object notebook-container" id="notebook" style="cursor: pointer;">
+            <img src="assets/open_notebook.png" alt="Open Notebook" class="notebook-img">
+            <div class="notebook-content notebook-link-content">
+                <span class="notebook-date">READ MY</span>
+                <h3 class="notebook-link-title">Book Reviews</h3>
+            </div>
+        </div>
+
+        <!-- Decorative Vintage Compass (Right side of desk) -->
+        <div class="desk-object compass-container" id="compass">
+            <img src="assets/vintage_compass.png?v=4" alt="Vintage Brass Compass" class="compass-img">
+        </div>
+
+        <!-- Main Skeuomorphic Card -->
+        <div class="main-card">
+
+            <!-- Folder-Style Tabs -->
+            <nav class="card-tabs">
+                <button class="tab-btn active" data-tab="home">HOME</button>
+                <button class="tab-btn" data-tab="projects">PROJECTS</button>
+                <button class="tab-btn" data-tab="about">ABOUT</button>
+                <button class="tab-btn" data-tab="blog">BLOG</button>
+                <button class="tab-btn" data-tab="contact">CONTACT</button>
+            </nav>
+
+            <!-- Card Body / Paper Surface -->
+            <div class="card-body">
+
+                <!-- Tab Contents Container -->
+                <div class="tab-content-wrapper">
+
+                    <!-- HOME TAB CONTENT -->
+                    <div class="tab-pane active" id="tab-home">
+                        <div class="columns-grid">
+
+                            <!-- Column 1: Projects / Skills (Left) -->
+                            <div class="column col-left">
+                                <div class="card-section">
+                                    <h2 class="section-title">LATEST WORK</h2>
+                                    <div class="work-showcase">
+                                        <div class="work-item" id="work-web">
+                                            <div class="icon-frame">
+                                                <svg viewBox="0 0 24 24" class="skew-icon">
+                                                    <rect x="2" y="3" width="20" height="12" rx="2" fill="none"
+                                                        stroke="currentColor" stroke-width="2" />
+                                                    <line x1="8" y1="21" x2="16" y2="21" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" />
+                                                    <line x1="12" y1="15" x2="12" y2="21" stroke="currentColor"
+                                                        stroke-width="2" />
+                                                </svg>
+                                            </div>
+                                            <span class="work-label">Web Apps</span>
+                                        </div>
+
+                                        <div class="work-item" id="work-app">
+                                            <div class="icon-frame">
+                                                <svg viewBox="0 0 24 24" class="skew-icon">
+                                                    <rect x="5" y="2" width="14" height="20" rx="3" fill="none"
+                                                        stroke="currentColor" stroke-width="2" />
+                                                    <line x1="12" y1="18" x2="12.01" y2="18" stroke="currentColor"
+                                                        stroke-width="3" stroke-linecap="round" />
+                                                </svg>
+                                            </div>
+                                            <span class="work-label">Mobile UI</span>
+                                        </div>
+
+                                        <div class="work-item" id="work-branding">
+                                            <div class="icon-frame">
+                                                <svg viewBox="0 0 24 24" class="skew-icon">
+                                                    <path d="M12 20h9" stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" />
+                                                    <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"
+                                                        fill="none" stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                            <span class="work-label">Branding</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-section">
+                                    <h2 class="section-title">SKILLS & EXPERTISE</h2>
+                                    <div class="skills-grid">
+                                        <div class="skill-badge" title="HTML5 & CSS3">HTML</div>
+                                        <div class="skill-badge" title="JavaScript / TypeScript">JS</div>
+                                        <div class="skill-badge" title="React & Next.js">RCT</div>
+                                        <div class="skill-badge" title="Skeuomorphism & Creative CSS">CSS</div>
+                                        <div class="skill-badge" title="UI/UX Prototyping">UX</div>
+                                        <div class="skill-badge" title="Creative Direction">DIR</div>
+                                    </div>
+                                </div>
+
+                                <div class="card-section">
+                                    <h2 class="section-title">SELECTED CLIENTS</h2>
+                                    <div class="clients-list">
+                                        <div class="client-logo">Sigma</div>
+                                        <div class="client-logo">Delta</div>
+                                        <div class="client-logo">Omni</div>
+                                        <div class="client-logo">Vertex</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Column 2: Inset Bio (Middle) -->
+                            <div class="column col-middle recessed-panel">
+                                <div class="recessed-inner">
+                                    <div class="bio-intro">
+                                        <h2 class="bio-title">LOREM IPSUM</h2>
+                                        <p class="bio-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris.
+                                        </p>
+                                    </div>
+
+                                    <!-- Polaroid Frame -->
+                                    <div class="polaroid-frame" id="profile-polaroid">
+                                        <div class="polaroid-photo-wrapper">
+                                            <img src="assets/profile_pic.png" alt="Alex Chen" class="polaroid-photo">
+                                        </div>
+                                        <div class="polaroid-caption">Juan Daniel G.L.P, 2026</div>
+                                    </div>
+
+                                    <div class="bio-details">
+                                        <h3 class="sub-section-title">CONSECTETUR</h3>
+                                        <p class="bio-text secondary">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud. Duis aute irure dolor in reprehenderit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Column 3: Sealed Scroll/Stack (Right) -->
+                            <div class="column col-right">
+                                <div class="card-section right-notes-section">
+                                    <h2 class="section-title">ADIPISCING</h2>
+
+                                    <!-- Interactive Wax Sealed Note Stack -->
+                                    <div class="sealed-note-stack" id="sealed-note">
+                                        <img src="assets/tied_notes_seal.png" alt="Sealed Notes"
+                                            class="sealed-notes-bg">
+                                        <div class="sealed-notes-overlay-text">
+                                            <p class="handwritten">- Dolor sit amet</p>
+                                            <p class="handwritten">- Consectetur elit</p>
+                                            <p class="handwritten">- Sed do eiusmod</p>
+                                            <p class="handwritten">- Tempor incididunt</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-section">
+                                    <h2 class="section-title">Status actual</h2>
+                                    <ul class="status-list">
+                                        <li>
+                                            <span class="status-dot online"></span>
+                                            <span class="status-label">Disponible para contrato</span>
+                                        </li>
+                                        <li>
+                                            <span class="status-dot busy"></span>
+                                            <span class="status-label">Location: Bogotá D.C</span>
+                                        </li>
+                                        <li>
+                                            <span class="status-dot idle"></span>
+                                            <span class="status-label">Zone: GMT-4 (EST)</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- PROJECTS TAB CONTENT -->
+                    <div class="tab-pane" id="tab-projects">
+                        <div class="placeholder-pane">
+                            <h2>SELECTED PORTFOLIO</h2>
+                            <p>Here are some of my interactive projects. Click to view cases.</p>
+                            <div class="recessed-panel projects-showcase">
+                                <div class="recessed-inner grid-2">
+                                    <div class="project-card">
+                                        <h3>Project Chronos</h3>
+                                        <p>A tactile mechanical web stopwatch built using canvas and physical audio
+                                            simulation.</p>
+                                        <a href="#" class="btn-tactile">Launch App</a>
+                                    </div>
+                                    <div class="project-card">
+                                        <h3>Aether OS</h3>
+                                        <p>A fully simulated retro web desktop with authentic windows, file explorer,
+                                            and text editor.</p>
+                                        <a href="#" class="btn-tactile">Launch App</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ABOUT TAB CONTENT -->
+                    <div class="tab-pane" id="tab-about">
+                        <div class="placeholder-pane">
+                            <h2>ABOUT MY CRAFT</h2>
+                            <p>I build web experiences that feel tangible, using custom styling, light mapping, and
+                                physics.</p>
+                            <div class="recessed-panel about-panel">
+                                <div class="recessed-inner">
+                                    <p>I believe that the web has lost its tactile feel in the transition to flat
+                                        minimalism. My goal is to bring back the charm of the real world—textures,
+                                        shadows, weight, and light—into modern, high-performance web applications.</p>
+                                    <p>By blending modern JavaScript frameworks with classical CSS visual effects, I
+                                        craft websites that are not just viewed, but experienced.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BLOG TAB CONTENT -->
+                    <div class="tab-pane" id="tab-blog">
+                        <!-- Article List View -->
+                        <div class="blog-list-view">
+                            <div class="placeholder-pane">
+                                <h2>THE DIARY</h2>
+                                <p>Thoughts on digital craft, skeuomorphism, and frontend technologies.</p>
+                                <div class="blog-list">
+                                    <article class="blog-teaser" data-article="skeuomorphism" style="cursor: pointer;">
+                                        <span class="blog-date">May 12, 2026</span>
+                                        <h3><a href="javascript:void(0)">The Return of Skeuomorphism</a></h3>
+                                        <p>Why flat design is fatiguing, and why tactile UI is seeing a massive resurgence...</p>
+                                    </article>
+                                    <article class="blog-teaser" data-article="css-shadows" style="cursor: pointer;">
+                                        <span class="blog-date">April 08, 2026</span>
+                                        <h3><a href="javascript:void(0)">CSS Filter Tricks for Realistic Shadows</a></h3>
+                                        <p>How to use drop-shadow, blur, and lighting effects to build layered layout depth...</p>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Article Detail View (Tactile Sheet Template) -->
+                        <div class="blog-detail-view" style="display: none;">
+                            <button class="btn-tactile back-to-blog-btn" style="margin-bottom: 20px; cursor: pointer;">← Back to Diary</button>
+                            
+                            <article class="skeuo-article-sheet">
+                                <!-- Red vertical notebook margin line -->
+                                <div class="article-margin-line"></div>
+                                
+                                <div class="article-sheet-content">
+                                    <header class="article-header">
+                                        <span class="article-meta">MAY 12, 2026 &bull; 6 MIN READ &bull; DESIGN THEORY</span>
+                                        <h1 class="article-title">The Return of Skeuomorphism</h1>
+                                        <div class="article-author">By Juan Daniel Gonzalo López Pedraza</div>
+                                    </header>
+                                    
+                                    <div class="article-body-text">
+                                        <p><span class="article-drop-cap">F</span>or over a decade, flat design has dominated our screens. In its quest for minimalism, the web stripped away textures, gradients, bevels, and shadows. While this clean aesthetics served the era of responsive layouts, it created a cognitive fatigue—an internet where everything looks uniform, interactive indicators are hidden, and pages feel like sterile glass screens.</p>
+                                        
+                                        <p>But the human brain evolved in a physical, tactile world. We navigate space by reading light reflections, contours, and depth. This is where skeuomorphism holds its true strength. It bridges the gap between the virtual and the physical by providing immediate visual indicators.</p>
+                                        
+                                        <!-- Skeuomorphic polaroid photo mount inside article -->
+                                        <div class="article-media-wrapper">
+                                            <div class="article-polaroid">
+                                                <div class="polaroid-photo-wrapper" style="background: #222; overflow: hidden; border: 1px solid #d4cfcc; box-shadow: inset 0 2px 6px rgba(0,0,0,0.3); aspect-ratio: 1;">
+                                                    <img src="assets/profile_pic.png" alt="Skeuomorphism illustration" class="polaroid-photo" style="width: 100%; height: 100%; object-fit: cover; filter: sepia(0.1) contrast(0.95) brightness(1.02);">
+                                                </div>
+                                                <div class="polaroid-caption">Tactile contours & light.</div>
+                                            </div>
+                                            <!-- Decorative paper clip element simulation -->
+                                            <div class="paper-clip-overlay"></div>
+                                        </div>
+
+                                        <p>Modern skeuomorphism (or "Neomorphism") is not about mindless clutter. It's about combining clean typography with premium tactile details. By using subtle CSS filters, double shadows (a light source highlight and dark shadow projection), and paper textures, we create digital layouts that feel premium, responsive, and alive.</p>
+                                        
+                                        <blockquote>
+                                            "Good design is tactile. It invites you to touch, press, and explore, transforming pixels into physical materials."
+                                        </blockquote>
+
+                                        <p>As virtual and augmented realities (spatial computing) grow, the flat interface is no longer enough. We must bring back depth, shadows, and tactile logic, crafting digital environments that respect physical principles.</p>
+                                    </div>
+                                    
+                                    <footer class="article-footer">
+                                        <div class="author-signoff">
+                                            <p>Bogotá D.C, Colombia</p>
+                                            <div class="ink-stamp">APPROVED</div>
+                                        </div>
+                                    </footer>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- CONTACT TAB CONTENT -->
+                    <div class="tab-pane" id="tab-contact">
+                        <div class="placeholder-pane">
+                            <h2>GET IN TOUCH</h2>
+                            <p> Email sender temporalmente fuera de servicio.</p>
+                            <div class="recessed-panel contact-panel">
+                                <div class="recessed-inner">
+                                    <form class="tactile-form"
+                                        onsubmit="event.preventDefault(); alert('Message sent!');">
+                                        <div class="form-group">
+                                            <label for="contact-name">NAME</label>
+                                            <input type="text" id="contact-name" class="tactile-input"
+                                                placeholder="Your Name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="contact-email">EMAIL ADDRESS</label>
+                                            <input type="email" id="contact-email" class="tactile-input"
+                                                placeholder="Your Email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="contact-message">YOUR MESSAGE</label>
+                                            <textarea id="contact-message" class="tactile-input" rows="4"
+                                                placeholder="Type your message here..." required></textarea>
+                                        </div>
+                                        <button type="submit" class="btn-tactile"
+                                            style="width: 100%; padding: 10px; cursor: pointer;">SEND MESSAGE</button>
+                                    </form>
+
+                                    <!-- Social Tray -->
+                                    <div class="social-tray">
+                                        <a href="https://instagram.com/wandagoxd" target="_blank"
+                                            class="social-btn instagram" aria-label="Instagram">
+                                            <svg class="social-icon" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                            </svg>
+                                            <span>Instagram</span>
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/juan-daniel-gonzalo-l%C3%B3pez-pedraza-91a7a7186/      "
+                                            target="_blank" class="social-btn linkedin" aria-label="LinkedIn">
+                                            <svg class="social-icon" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                                <path
+                                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                                </path>
+                                                <rect x="2" y="9" width="4" height="12"></rect>
+                                                <circle cx="4" cy="4" r="2"></circle>
+                                            </svg>
+                                            <span>LinkedIn</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Diagonal Pencil (Laying across the card) -->
+                <div class="desk-object diagonal-pencil" id="diagonal-pencil">
+                    <img src="assets/classic_pencil.png?v=5" alt="Classic Pencil" class="pencil-img">
+                </div>
+
+                <!-- Coffee Cup (Sits on saucer, bottom center/left overlaying the card) -->
+                <div class="desk-object coffee-cup" id="coffee-cup">
+                    <img src="assets/ceramic_coffee_cup.png" alt="Coffee Cup" class="coffee-img">
+                    <div class="coffee-steam">
+                        <span style="--i:1;"></span>
+                        <span style="--i:3;"></span>
+                        <span style="--i:2;"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bottom-footer">
+        <p>&copy; 2026 Juan Daniel Gonzalo López Pedraza. Built with vanilla CSS & HTML.</p>
+    </footer>
+
+    <a href="https://wa.me/+573138780743" target="_blank" class="whatsapp-btn-skeuo" aria-label="Contact on WhatsApp">
+        <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 001.333 4.993L2 22l5.13-1.347a9.944 9.944 0 004.877 1.277h.005c5.505 0 9.989-4.478 9.99-9.985A9.972 9.972 0 0012.012 2zm5.835 14.167c-.32.9-1.845 1.648-2.53 1.73-.59.07-1.35.1-3.89-.95-3.244-1.34-5.323-4.623-5.485-4.84-.162-.216-1.304-1.733-1.304-3.302 0-1.568.82-2.34.11-2.65-.324-.135-.863-.324-1.21-.324-.347 0-.917.13-1.398.65-.482.52-1.84 1.796-1.84 4.38s1.881 5.08 2.146 5.44c.265.36 3.7 5.64 8.97 7.91 1.25.54 2.23.86 2.99 1.1.256.082.525.138.795.167 1.1.2 2.1-.2 2.87-.31.86-.13 1.845-.75 2.115-1.44s.27-1.28.19-1.42c-.08-.14-.3-.22-.64-.39z" />
+        </svg>
+    </a>
+
+    <script src="js/main.js?v=18"></script>
+</body>
+
+</html>
